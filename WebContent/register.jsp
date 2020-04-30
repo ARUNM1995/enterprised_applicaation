@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="">
+	<form action="register" method="post">
 	
 		<div>
 			<label for="name">Name</label>

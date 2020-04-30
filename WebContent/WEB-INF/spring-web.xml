@@ -8,6 +8,11 @@
 
 	<context:component-scan
 		base-package="com.ohem2.ums"></context:component-scan>
+		
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+			<property name="configLocations"
+			value="classpath:/hibernate.cfg.xml"></property>
+	</bean>
 
 </beans>
 
