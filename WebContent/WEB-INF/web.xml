@@ -5,7 +5,7 @@
 	version="3.0">
 	<display-name>user_management_system</display-name>
 	<welcome-file-list>
-		<welcome-file>register.jsp</welcome-file>
+		<welcome-file>login.jsp</welcome-file>
 	</welcome-file-list>
 
 	<servlet>
