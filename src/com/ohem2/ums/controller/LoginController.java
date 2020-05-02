@@ -18,9 +18,9 @@ public class LoginController {
 	public ModelAndView login(LoginDTO loginDTO) {
 		Register register = loginService.login(loginDTO);
 		if(register!=null) {
-			return new ModelAndView("home.jsp");
+			return new ModelAndView("home.jsp","registerData",register);
 		}else {
-			return new ModelAndView("register.jsp");
+			return new ModelAndView("login.jsp","msg","Invalid credentials");
 		}
 	}
 }

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Registration successfull</h1>
+<h1>Welcome ${registerData.name}</h1>
 </body>
 </html>

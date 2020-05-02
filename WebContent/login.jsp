@@ -25,5 +25,6 @@
 		</div>
 	</form>
 	<a href="register.jsp">Register</a>
+	<h6>${msg}</h6>
 </body>
 </html>
